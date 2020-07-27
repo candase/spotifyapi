@@ -1,0 +1,88 @@
+html {
+    background: linear-gradient(
+        rgb(161, 255, 148) 0%,
+        rgba(30, 153, 112, 1) 25%,
+        rgba(0, 212, 255, 1) 50%,
+        rgba(30, 153, 112, 1) 75%,
+        rgb(161, 255, 148) 100%
+    );
+    background-size: 100% 400vh;
+    background-repeat: repeat-y;
+}
+
+body {
+    background-color: transparent;
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    transition-duration: 1s;
+}
+
+input {
+    border: 0px;
+    border-bottom: 2px solid green;
+    background-color: transparent;
+}
+select {
+    background-color: transparent;
+}
+button {
+    background-color: transparent;
+}
+
+img {
+    background-image: url(/../spotify_search/hqdefault.jpg);
+    background-size: 200px 200px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.more {
+    visibility: hidden;
+    font-size: larger;
+}
+
+.resultsarea {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.resultimages {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 10px;
+    margin: 5px;
+    text-align: -webkit-center;
+    width: 215px;
+    height: 250px;
+}
+
+.resultimages a {
+    font-family: monospace;
+    color: black;
+}
+
+h1 {
+    font-family: monospace;
+}
+
+h3 {
+    font-family: monospace;
+}
+
+.resultname {
+    max-width: 100%;
+    text-align: center;
+}
